@@ -19,3 +19,27 @@ dist/
 *.egg-info/
 *.log
 cython_debug/
+# --- Python / Backend ---
+backend/.env
+backend/__pycache__/
+backend/data/index/
+backend/data/books/_processed/
+*.pyc
+
+# --- Node.js / Frontend ---
+frontend/.next/
+frontend/node_modules/
+frontend/out/
+
+# --- Virtual Environments ---
+.venv/
+venv/
+.myenv/
+env/
+lib/ # เพิ่ม lib โดยตรงเผื่อกรณีฉุกเฉิน
+
+# --- IDE / OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
